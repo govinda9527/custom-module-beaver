@@ -13,6 +13,7 @@ define( 'CMB_URL', plugins_url( '/', __FILE__ ) );
 function my_load_module_one() {
   if ( class_exists( 'FLBuilder' ) ) {
       // Include your custom modules here.
+      require_once 'my-module/my-module.php';
   }
 }
 add_action( 'init', 'my_load_module_one' );
