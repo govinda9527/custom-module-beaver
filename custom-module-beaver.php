@@ -17,3 +17,8 @@ function my_load_module_one() {
   }
 }
 add_action( 'init', 'my_load_module_one' );
+
+add_action( 'init', function() {
+  register_block_type( CMB_DIR.'my-module/blocks/block.json' );
+} );
+
