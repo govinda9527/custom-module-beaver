@@ -9,8 +9,8 @@ class MyModuleClass extends FLBuilderModule {
             'description'     => __( 'A totally awesome module!', 'fl-builder' ),
             'group'           => __( 'My Group', 'fl-builder' ),
             'category'        => __( 'My Category', 'fl-builder' ),
-            'dir'             => CMB_DIR . 'my-module/',
-            'url'             => CMB_URL . 'my-module/',
+            'dir'             => GOCMBB_MODULE_DIR . 'my-module/',
+            'url'             => GOCMBB_MODULE_URL . 'my-module/',
             'icon'            => 'button.svg',
             'editor_export'   => true, // Defaults to true and can be omitted.
             'enabled'         => true, // Defaults to true and can be omitted.
