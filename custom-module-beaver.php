@@ -29,7 +29,6 @@ if ( class_exists( 'FLBuilder' ) ) {
 			add_filter( 'body_class', [ $this, 'gocmbbBodyClasses' ] );
 
       add_action( 'init', function() {
-        // register_block_type( GOCMBB_MODULE_DIR.'my-module/blocks/block.json' );
       } );
 
 		}
@@ -58,7 +57,6 @@ if ( class_exists( 'FLBuilder' ) ) {
 		public function gocmbbLoadModules() {
 			if ( class_exists( 'FLBuilder' ) ) {
 
-				require_once GOCMBB_MODULE_DIR.'my-module/my-module.php';
 				require_once GOCMBB_MODULE_DIR.'includes/modules.php';
 				require_once GOCMBB_MODULE_DIR.'/includes/helper-gocmbb-functions.php'; 
 				require_once GOCMBB_MODULE_DIR.'classes/class-module-fields.php';
