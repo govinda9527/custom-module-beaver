@@ -1,0 +1,217 @@
+.fl-builder-lightbox .fl-lightbox {
+    width: 700px;
+}
+
+.fl-builder-settings-tab {
+    width: 650px;
+}
+
+.gocmbb-multinumber:before {
+    width: 15px;
+    text-align: center;
+    height: 24px;
+    line-height: 24px;
+    display: inline-block;
+}
+
+span.gocmbb-multinumber input[type="number"] {
+    width: 70px;
+}
+
+.gocmbb-multinumber-wrap span {
+    display: inline-block !important;
+}
+
+.gocmbb-multinumber-wrap {
+    display: inline-block;
+}
+
+span.fa, span.fa:before {
+    font-family: "Font Awesome 5 Free" !important;
+}
+
+.fl-icon-field.fl-builder-custom-field {
+    padding: 0 5px;
+}
+
+.gocmbb-simplify-wrapper .gocmbb-simplify {
+    width: 20%;
+    display: inline-block;
+}
+
+.gocmbb-simplify-wrapper .gocmbb-simplify-item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.gocmbb-simplify-wrapper .gocmbb-simplify-items .simplify {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.gocmbb-simplify-wrapper .gocmbb-simplify-items i.dashicons {
+    width: 23px;
+    height: 23px;
+    text-align: center;
+    line-height: 23px;
+    /* border: 1px solid; */
+}
+
+.gocmbb-simplify-wrapper .gocmbb-simplify-item.desktop {
+    margin: 0;
+}
+
+.gocmbb-simplify-wrapper span.gocmbb-icon {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 0 1px 0 #fff;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.gocmbb-simplify-wrapper .gocmbb-icon .gocmbb-tooltip,
+.gocmbb-simplify-wrapper .simplify .gocmbb-tooltip {
+    display: none;
+    position: absolute;
+    content: '';
+    color: #fff;
+    top: -35px;
+    left: -5px;
+    text-shadow: none;
+    white-space: nowrap;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 11px;
+}
+
+.gocmbb-simplify-wrapper .gocmbb-icon .gocmbb-tooltip {
+    background: #444;
+}
+
+.gocmbb-simplify-wrapper .simplify .gocmbb-tooltip {
+    background: #00aef0;
+}
+
+.gocmbb-simplify-wrapper .gocmbb-icon .gocmbb-tooltip:before,
+.gocmbb-simplify-wrapper .simplify .gocmbb-tooltip:before {
+    content: "";
+    position: absolute;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    top: 100%;
+    left: 10px;
+}
+
+.gocmbb-simplify-wrapper .gocmbb-icon .gocmbb-tooltip:before {
+    border-top: 5px solid #444;
+}
+
+.gocmbb-simplify-wrapper .simplify .gocmbb-tooltip:before {
+    border-top: 5px solid #00aef0;
+}
+
+/*************
+New
+*/
+.gocmbb-simplify-wrapper .gocmbb-simplify-item.optional {
+    display: inline-block;
+    /* vertical-align: text-top; */
+}
+
+.gocmbb-simplify-wrapper .gocmbb-simplify-size-wrap {
+    display: inline-block;
+    width: 65%;
+}
+
+.gocmbb-simplify-wrapper .gocmbb-size-wrap {
+    display: inline-block;
+    vertical-align: top;
+    /*margin-right: 5px;*/
+}
+
+.gocmbb-simplify-wrapper .gocmbb-simplify-item input.gocmbb-simplify-input {
+    box-sizing: border-box !important;
+    margin: 0 0 0 -0.4em !important;
+    height: 25px !important;
+    padding-left: 5px !important;
+    width: 40px;
+    vertical-align: middle;
+    border-radius: 0 3px 3px 0;
+}
+
+/* Hover Css */
+.gocmbb-simplify-wrapper i.gocmbb-help-tooltip:hover ~ div.gocmbb-tooltip {
+    display: block;
+}
+
+/*********** NJBA draggable**********/
+.gocmbb-cta-draggable {
+    /*padding: 13px;*/
+}
+
+.gocmbb-draggable-wrap {
+    position: relative;
+}
+
+.gocmbb-draggable-wrap img {
+    width: 100%;
+    height: 100%;
+}
+
+.gocmbb-draggable-point {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    width: 1px;
+    height: 1px;
+    background: transparent;
+    -webkit-transition: box-shadow .3s ease;
+    transition: box-shadow .3s ease;
+    z-index: 1;
+}
+
+.gocmbb-draggable-point:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5px;
+    height: 5px;
+    background: #fff;
+    border-radius: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.gocmbb-draggable-point:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 12px solid rgba(51, 51, 51, 0.5);
+    border-radius: 100%;
+    box-shadow: 0 0 1px 0 rgba(255, 255, 255, 0.5);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: box-shadow .3s ease;
+    transition: box-shadow .3s ease;
+}
+
+.fl-builder-settings-fields select {
+    line-height: 20px;
+}
