@@ -1,0 +1,42 @@
+.gocmbb-btn-main a.gocmbb-btn {
+    text-decoration: none;
+    position: relative;
+}
+
+.gocmbb-btn-main a:hover, .gocmbb-btn-main a:active, .gocmbb-btn-main a:focus {
+    text-decoration: none;
+}
+
+.gocmbb-btn-main a:active, .gocmbb-btn-main a:focus {
+    outline: none;
+}
+
+.gocmbb-btn-main a.gocmbb-btn:before {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-transition-property: transform;
+    -moz-transition-property: transform;
+    -o-transition-property: transform;
+    -ms-transition-property: transform;
+}
+
+.gocmbb-btn-main .position_right {
+    float: right;
+}
+
+.gocmbb-btn-main .position_left {
+    float: left;
+}
+
+span.font-icon-preview {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+span.gocmbb-button-text {
+    vertical-align: middle;
+}

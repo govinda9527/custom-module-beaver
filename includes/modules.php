@@ -2,6 +2,7 @@
 $modules = [
 	'modules/gocmbb-teams/gocmbb-teams.php',
 	'modules/gocmbb-testimonial/gocmbb-testimonial.php',
+	'modules/gocmbb-button/gocmbb-button.php',
 ];
 
 $theme_dir = is_child_theme() ? get_stylesheet_directory() : get_template_directory();

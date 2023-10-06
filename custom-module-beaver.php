@@ -58,14 +58,13 @@ if ( class_exists( 'FLBuilder' ) ) {
 		public function gocmbbLoadModules() {
 			if ( class_exists( 'FLBuilder' ) ) {
 
-				require_once 'my-module/my-module.php';
-				require_once 'includes/modules.php';
+				require_once GOCMBB_MODULE_DIR.'my-module/my-module.php';
+				require_once GOCMBB_MODULE_DIR.'includes/modules.php';
 				require_once GOCMBB_MODULE_DIR.'/includes/helper-gocmbb-functions.php'; 
+				require_once GOCMBB_MODULE_DIR.'classes/class-module-fields.php';
         
 				// require_once 'classes/class-admin-settings.php'; // admin settings
 				// require_once 'classes/class-gocmbb-usage.php'; //Usage
-				// require_once 'classes/class-module-fields.php'; //class fields
-				// require_once 'includes/modules.php'; //include modules
 				// require_once 'classes/class-wpml-compatibility.php'; //WPML 
 			}
     }
