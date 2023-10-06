@@ -32,8 +32,8 @@ class GOCMBB_Testimonial_Module extends FLBuilderModule {
 	public function gocmbb_profile_image_render( $i ) {
 		$photo            = $this->settings->testimonials[ $i ]->photo;
 		$testimoals_image = wp_get_attachment_image_src( $photo );
-		if ( ! is_wp_error( $testimoals_image && $testimoals_image ) ) {
-			$photo_src = $testimoals_image[0];
+		if ( ! is_wp_error( $testimoals_image && $photo != "" ) ) {
+			$photo_src = ($testimoals_image) ? $testimoals_image[0]:'';
 			if ( $this->settings->image_size === '' ) {
 				$photo_height = 'width="' . $testimoals_image[2] . '"';
 				$photo_width  = 'height="' . $testimoals_image[1] . '"';
