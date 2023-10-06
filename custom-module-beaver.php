@@ -58,8 +58,8 @@ if ( class_exists( 'FLBuilder' ) ) {
 		public function gocmbbLoadModules() {
 			if ( class_exists( 'FLBuilder' ) ) {
 
-        require_once 'my-module/my-module.php';
-        require_once 'includes/modules.php';
+				require_once 'my-module/my-module.php';
+				require_once 'includes/modules.php';
 				require_once GOCMBB_MODULE_DIR.'/includes/helper-gocmbb-functions.php'; 
         
 				// require_once 'classes/class-admin-settings.php'; // admin settings
